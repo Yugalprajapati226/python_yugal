@@ -14,7 +14,7 @@ icon.show_icon(":foggy:")
 st.markdown("# :rainbow[Text-to-Image Artistry Studio]")
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
-REPLICATE_API_TOKEN = st.secrets["db_password"]
+REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN = r8_AuQXa8S0Fry9PD3thoCHvyuHhngwyd84caPVS"]
 REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
 
 # Resources text, link, and logo
